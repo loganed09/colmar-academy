@@ -1,0 +1,112 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.company-name{
+    width: 200px;
+    margin-left: 24px;
+    height: 32px;
+    
+}
+
+.company-name img {
+    vertical-align: middle;
+}
+
+ul a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: .3rem;
+    color: black;
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    color: darkslategray;
+    width: 100%;
+  
+}
+
+.banner img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.banner-statement {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-statement h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner-statement button {
+    text-align: center;
+    background-color: darkslategray;
+    align-self: center;
+    color: white;
+    width: 100%;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+
+
+.banner-2 {
+    display: flex;
+    border: black 1px solid;
+
+}
+
+.banner2Img {
+    display: flex;
+    flex-direction: column;
+    border: red 1px solid;
+    width: 70%;
+}
+
+.banner-2 div {
+
+}
+
+.banner2Img img {
+    width: 60%;
+}
+
+.banner2quote {
+    text-align: left;
+    display: flex;
+    align-items: left;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.banner2quote {
+
+}
+
+.side-pictures {
+    width: 40%
+}
+
+
+.side-pictures img {
+    width: 35%;
+    height: auto;
+}
