@@ -5,7 +5,7 @@ html, body {
 }
 
 header {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
 }
@@ -15,9 +15,9 @@ header {
 } */
 
 .company-name{
-    width: 200px;
-    margin-left: 24px;
-    height: 32px;
+    width: 12.5rem;
+    margin-left: 1.5rem;
+    height: 2rem;
     
 }
 
@@ -35,26 +35,34 @@ ul a {
 
 .banner {
     display: flex;
-    align-items: center;
     background-color: hsl(0, 7%, 92%);
     color: darkslategray;
-    width: 100%;
-  
+
+    align-items: center;
 }
 
 .banner img {
-    width: 55%;
-    margin: 32px 24px;
+    width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .banner-statement {
-    text-align: left;
+
+  
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
-.banner-statement h2 {
-    font-size: 32px;
+
+
+
+.banner-statement h1 {
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -65,34 +73,53 @@ ul a {
     color: white;
     width: 100%;
     border: none;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 40px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 2.5rem;
 }
 
+/* .banner-2 div {
+    border: black solid 1px;
+}
+
+.banner2Img div {
+    border: red solid 1px;
+} 
+
+ .side-pictures{
+    border: orange solid 2px;
+}
+
+.side {
+    border: green solid 2px;
+}
+
+.side div {
+    border: darkblue solid 2px;
+}  */
 
 .banner-2 {
     display: flex;
-    
+
 }
 
 .banner2Img {
     display: flex;
     width: 60%;
     flex-wrap: wrap;
-    
+    flex-grow: 1;
 }
 
 .banner2Img img {
-    width: 50%;
-    margin: 32px 24px;
-    flex-grow: 1;
+    display: flex;
+    width: 95%;
+    margin: 2rem 1.5rem;
 }
 
 .banner2quote {
     text-align: left;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     align-items: left;
     display: flex;
     flex-direction: column;
@@ -103,25 +130,25 @@ ul a {
 .banner2quote h2 {
     font-size: 2rem;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .banner2quote p {
     font-size: .8rem;
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 #emanuel {
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     font-size: .65rem;
 }
 
 
 .side-pictures {
-    width: 40%;
-    margin-top: 16px;
-  
+    width: 30%;
+    margin-top: 1rem;
+    flex-grow: 2;
 }
 
 .side-pictures p {
@@ -144,24 +171,23 @@ ul a {
     width: 35%;
 }
 
-#side1, #side2, #side3 {
+.side {
     display: flex;
-    
     align-items: center;
     text-align: left;
 } 
 
 
 
- #side1 img, #side2 img, #side3 img {
-    margin: 16px;
+.side img {
+    margin: 1rem;
 }
 
-#side2 {
-    border-top: 5px hsl(0, 7%, 92%) solid;
+.side-2 {
+    border-top: 0.3125rem hsl(0, 7%, 92%) solid;
 }
 
-#side3 {
+.side-3 {
     background-color: hsl(0, 7%, 92%);
 }
 
