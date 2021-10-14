@@ -43,7 +43,6 @@ header {
 /* Banner One */
 .company-name{
     width: 12.5rem;
-    margin-left: 1.5rem;
     height: 2rem;
     
 }
@@ -65,6 +64,7 @@ ul a {
     background-color: hsl(0, 7%, 92%);
     color: darkslategray;
     align-items: center;
+    width: 100%;
 }
 
 .banner img {
@@ -103,6 +103,7 @@ ul a {
 /* Banner 2 */
 .banner-2 {
     display: flex;
+    width: 100%;
 }
 
 .banner2Img {
