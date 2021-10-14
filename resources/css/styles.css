@@ -39,6 +39,7 @@ header {
 
 
 
+
 /* Banner One */
 .company-name{
     width: 12.5rem;
@@ -186,5 +187,45 @@ ul a {
 
 .side-3 {
     background-color: hsl(0, 7%, 92%);
+}
+
+/* Banner 3 */
+
+.banner-3 {
+    background-color: hsl(0, 7%, 92%);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.banner-3 h2 {
+    font-size: 2rem;
+}
+
+.professions {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 4.5rem;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+}
+
+.profession {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.profession img {
+    height: auto;
+    width: 100%;
+}
+
+.profession-text {
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
