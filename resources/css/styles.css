@@ -92,12 +92,34 @@ ul a {
 .banner2quote {
     text-align: left;
     margin-left: 24px;
+    margin-right: 24px;
     align-items: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.banner2quote h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.banner2quote p {
+    font-size: .8rem;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+#emanuel {
+    margin-bottom: 32px;
+    font-size: .65rem;
 }
 
 
 .side-pictures {
-    width: 38%;
+    width: 40%;
     margin-top: 16px;
   
 }
@@ -124,7 +146,7 @@ ul a {
 
 #side1, #side2, #side3 {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     text-align: left;
 } 
