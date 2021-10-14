@@ -6,8 +6,13 @@ html, body {
 }
 
 header {
+    width: 100%;
+}
+
+.highRes {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
@@ -45,11 +50,11 @@ header {
 .company-name{
     width: 12.5rem;
     height: 2rem;
-    
 }
 
 .company-name img {
     vertical-align: middle;
+    width: 20%;
 }
 
 ul a {
@@ -302,4 +307,28 @@ footer a {
     cursor: pointer;
     padding: .3rem;
     color: black;
+}
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 470px) {
+    header {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    header p {
+        text-align:left;
+        margin-left: .5px;
+    }
+
+    header p img {
+
+    }
+
+    header span {
+        display: none;
+        
+    }
 }
