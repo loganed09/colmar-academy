@@ -10,10 +10,36 @@ header {
     width: 100%;
 }
 
+/* Bordering Outlines */
+
 /* div {
     border: 1px black solid;
-} */
+} 
 
+.banner-2 div {
+    border: black solid 1px;
+}
+
+.banner2Img div {
+    border: red solid 1px;
+} 
+
+ .side-pictures{
+    border: orange solid 2px;
+}
+
+.side {
+    border: green solid 2px;
+}
+
+.side div {
+    border: darkblue solid 2px;
+}  */
+
+
+
+
+/* Banner One */
 .company-name{
     width: 12.5rem;
     margin-left: 1.5rem;
@@ -37,7 +63,6 @@ ul a {
     display: flex;
     background-color: hsl(0, 7%, 92%);
     color: darkslategray;
-
     align-items: center;
 }
 
@@ -50,16 +75,11 @@ ul a {
 }
 
 .banner-statement {
-
-  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
-
-
-
 
 .banner-statement h1 {
     font-size: 2.5rem;
@@ -78,29 +98,10 @@ ul a {
     margin-top: 2.5rem;
 }
 
-/* .banner-2 div {
-    border: black solid 1px;
-}
 
-.banner2Img div {
-    border: red solid 1px;
-} 
-
- .side-pictures{
-    border: orange solid 2px;
-}
-
-.side {
-    border: green solid 2px;
-}
-
-.side div {
-    border: darkblue solid 2px;
-}  */
-
+/* Banner 2 */
 .banner-2 {
     display: flex;
-
 }
 
 .banner2Img {
@@ -124,7 +125,6 @@ ul a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
 
 .banner2quote h2 {
@@ -143,7 +143,6 @@ ul a {
     margin-bottom: 2rem;
     font-size: .65rem;
 }
-
 
 .side-pictures {
     width: 30%;
@@ -176,8 +175,6 @@ ul a {
     align-items: center;
     text-align: left;
 } 
-
-
 
 .side img {
     margin: 1rem;
