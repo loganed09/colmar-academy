@@ -10,6 +10,10 @@ header {
     width: 100%;
 }
 
+/* div {
+    border: 1px black solid;
+} */
+
 .company-name{
     width: 200px;
     margin-left: 24px;
@@ -32,14 +36,14 @@ ul a {
 .banner {
     display: flex;
     align-items: center;
-    background-color: lightgray;
+    background-color: hsl(0, 7%, 92%);
     color: darkslategray;
     width: 100%;
   
 }
 
 .banner img {
-    width: 60%;
+    width: 55%;
     margin: 32px 24px;
 }
 
@@ -67,46 +71,75 @@ ul a {
 }
 
 
-
 .banner-2 {
     display: flex;
-    border: black 1px solid;
-
+    
 }
 
 .banner2Img {
     display: flex;
-    flex-direction: column;
-    border: red 1px solid;
-    width: 70%;
-}
-
-.banner-2 div {
-
+    width: 60%;
+    flex-wrap: wrap;
+    
 }
 
 .banner2Img img {
-    width: 60%;
+    width: 50%;
+    margin: 32px 24px;
+    flex-grow: 1;
 }
 
 .banner2quote {
     text-align: left;
-    display: flex;
+    margin-left: 24px;
     align-items: left;
-    border: 1px solid black;
-    flex-direction: column;
 }
 
-.banner2quote {
-
-}
 
 .side-pictures {
-    width: 40%
+    width: 38%;
+    margin-top: 16px;
+  
 }
 
+.side-pictures p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.side-pictures span {
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+.side-pictures a{
+    text-decoration: none;
+    font-size: .87rem;
+    margin-top: .5rem;
+}
 
 .side-pictures img {
     width: 35%;
-    height: auto;
 }
+
+#side1, #side2, #side3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+} 
+
+
+
+ #side1 img, #side2 img, #side3 img {
+    margin: 16px;
+}
+
+#side2 {
+    border-top: 5px hsl(0, 7%, 92%) solid;
+}
+
+#side3 {
+    background-color: hsl(0, 7%, 92%);
+}
+
