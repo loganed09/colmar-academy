@@ -483,6 +483,16 @@ video {
         margin-top: 0;
     }
 
+    /* .repsonsiveVid video{
+        height: 100%;
+        width: 100%;
+    } */
+
+    .responsiveVid video {
+        max-width: 100%;
+        height: auto;
+    }
+ 
     .mobile-pic {
         display: block;
     }
