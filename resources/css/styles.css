@@ -3,11 +3,13 @@ html, body {
     font-size: 16px;
     text-align: center;
     margin: 0, auto;
+    padding: 0;
     width: 100%;
 }
 
 header {
     width: 100%;
+    margin-top: 0;
 }
 
 .lowRes {
@@ -218,6 +220,11 @@ header {
     text-align: left;
 } 
 
+.side-text {
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
 .side img {
     margin: 1rem;
 }
@@ -352,7 +359,7 @@ footer a {
 
 /* Responsive */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
     .nav-ul {
         display: none;
         flex-direction: column;
@@ -365,6 +372,10 @@ footer a {
 
     .hamburger {
         display: block;
+    }
+
+    .navbar a {
+        display: none;
     }
 
     header {
@@ -381,10 +392,6 @@ footer a {
         display: none;   
     }
 
-    .navbar a {
-        display: none;
-    }
-
     .banner {
         flex-direction: column;
     }
@@ -399,6 +406,10 @@ footer a {
         margin-bottom: 2rem;
         margin-left: 1rem;
         text-align: left;
+    }
+
+    .banner button {
+        margin-right: 1rem;
     }
 
 
