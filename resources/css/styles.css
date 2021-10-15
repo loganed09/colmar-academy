@@ -238,6 +238,10 @@ header {
     background-color: hsl(0, 7%, 92%);
 }
 
+.mobile-pic {
+    display: none;
+}
+
 /* Banner 3 */
 
 .banner-3 {
@@ -457,7 +461,6 @@ footer a {
     .profession-button {
         padding: 1rem 2rem 1.5rem 1rem;
         margin-bottom: 1rem;
-      
         text-align: left;
         font-family: 'Varela Round', sans-serif;
         font-size: 1.2rem;
@@ -480,5 +483,14 @@ footer a {
     .repsonsiveVid video{
         height: 100%;
         width: 100%;
+    }
+
+    .mobile-pic {
+        display: block;
+        width: 25%;
+    }
+
+    .non-mobile-pic {
+        display: none;
     }
 }
